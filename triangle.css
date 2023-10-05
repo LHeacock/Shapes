@@ -1,0 +1,42 @@
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#board4shapes {
+
+    width: 35em;
+    height: 35em;
+    margin-right: 2em;
+    background-color: rgba(47, 51, 54);
+    border-radius: 1em;
+    padding-top: 12em;
+
+}
+
+
+
+.sphere {
+    border-radius: 50%;
+    background-color: blueviolet;
+    position: absolute;
+}
+
+.prism {
+    background-color: green;
+}
+
+.cube {
+    background-color: red;
+}
+
+.pyramid {
+    background-color: yellow;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    
+    border-bottom: 50px solid yellow;
+}
